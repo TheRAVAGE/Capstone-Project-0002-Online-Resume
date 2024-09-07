@@ -1,0 +1,61 @@
+
+.gradient-background {
+    background: linear-gradient(300deg, #000000, #5e0d0d, #b72626);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    margin: 50px auto 0 auto;
+    margin-top: 1rem;
+    font-family: "Sacramento", serif;
+    font-weight: 600;
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  .hello {
+    color:#a40606;
+  }
+
+  .copyright{
+    padding-bottom:6rem;
+    padding-top:1rem;
+    color: #ffffffb2;
+  }
+
+  .links{
+    padding-bottom:0rem;
+    color: #ffffffb2;
+  }
+
+  /*
+  
+  class="display-5 fw-bold text-body-emphasis lh-1 mb-3" style="text-emphasis-color:white;"
+  magenta - #3E1731
+  blue - 004B88
+  black - 000000
+   class="display-4 fw-bold text-body-emphasis"
+
+  */
